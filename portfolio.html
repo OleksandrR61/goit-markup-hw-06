@@ -283,20 +283,14 @@
       <div class="container">
         <div class="footer-div">
           <div class="footer-address">
-            <a class="logo" href="./index.html"
-              ><span class="logo-web">Web</span>Studio</a
-            >
+            <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
             <address class="address">
               <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
-              <a class="link contact-footer" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-              <a class="link contact-footer" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
+              <a class="link contact-footer" href="mailto:info@example.com">info@example.com</a>
+              <a class="link contact-footer" href="tel:+380991111111">+38 099 111 11 11</a>
             </address>
           </div>
-          <div>
+          <div class="footer-list-link">
             <h2 class="footer-title-link">Присоединяйтесь</h2>
             <ul class="item-list-link list">
               <li class="item-link">
@@ -328,6 +322,22 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div>
+            <h2 class="footer-title-link">Подпишитесь на рассылку</h2>
+            <div class="footer-form">
+              <form class="form" name="footer-form" autocomplete="on" validate>
+                <label class="form-label">
+                  <input type="email" class="footer-input" name="email" placeholder="E-mail">
+                </label>
+                <button class="button button-submit" type="submit">
+                  Подписаться
+                  <svg class="icon-send" width="24" height="24">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
